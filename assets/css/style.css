@@ -1,0 +1,64 @@
+header {
+    border-bottom: 1px ridge #9c9b9b;
+}
+nav {  
+    height: 80px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nametitle {   
+    display:inline-block;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 25px;
+    color: white;
+    width: 200px;
+    background-color: #4aaaa5;
+    border-style: solid;
+    margin-bottom: 0px;
+}
+
+.nav-links {
+
+    padding-top: 30px;
+    margin: 0 auto;
+    float: right;
+    word-spacing: 35px;    
+}
+a:link {
+
+    text-decoration: none;
+    color: #cccccc
+}
+.main-background {
+
+    margin: 0 auto;
+    padding-top: 5px;
+    height:650px;
+    background-color: #cccccc;
+}
+
+.about-me {
+    margin: 0 auto;
+    border-top: 40px;
+    background-color: white;
+    height:480px;
+    width: 960px;
+    border-color: #dddddd;
+}
+
+h2 {
+
+    padding-left: 25px;
+    padding-top: 25px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.under-line {
+    margin: 0 auto;
+    border-bottom: 2px solid #b3b1b1;
+    width: 920px;
+
+}
