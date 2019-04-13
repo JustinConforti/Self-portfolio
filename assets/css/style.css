@@ -1,13 +1,17 @@
 header {
+
     border-bottom: 1px ridge #9c9b9b;
 }
 nav {  
+
     height: 80px;
     width: 960px;
     margin: 0 auto;
 }
 
 .nametitle {   
+
+    padding-top:15px;
     display:inline-block;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-left: 25px;
@@ -26,7 +30,7 @@ nav {
     word-spacing: 35px;    
 }
 a:link {
-
+    
     text-decoration: none;
     color: #cccccc
 }
@@ -39,7 +43,9 @@ a:link {
 }
 
 .about-me {
-    margin: 0 auto;
+
+    margin-top: 40px;
+    margin-left: 170px;
     border-top: 40px;
     background-color: white;
     height:480px;
@@ -56,9 +62,38 @@ h2 {
     padding-bottom: 15px;
     display: inline-block;
 }
+
 .under-line {
+
     margin: 0 auto;
     border-bottom: 2px solid #b3b1b1;
-    width: 920px;
+    width: 915px;
 
 }
+
+img {
+
+    float: left;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+p {
+
+    padding-left: 220px;
+    padding-top: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 1.5;
+
+}
+
+.footerborder {
+
+    height: 10px;
+}
+.footer {
+
+    background-color: #666666;
+    height:75px;
+}
+
