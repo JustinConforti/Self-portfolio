@@ -2,60 +2,71 @@ header {
 
     border-bottom: 1px ridge #c7c5c5;
 }
-nav {  
 
 
-    height: 80px;
+
+.homepage {
+    width:100%;
+    height:600px;
+
+}
+.nav-homepage {  
+
+    height: 95px;
     width: 960px;
     margin: 0 auto;
     padding-top: 5px;
+
 }
 
-.nametitle {   
+.nametitle-homepage {   
 
     margin: 0 auto;
-    border-bottom-color: #c7c5c5;
+    text-align: center;
+    border-bottom-color: #cccccc;
     border-bottom-style: 1px ridge;
-    padding-top:15px;
     display:inline-block;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding-left: 25px;
     color: white;
-    width: 200px;
-    height: 60px;
+    width: 290px;
+    height: 90px;
+    padding-top:6px;
+    font-size:24px;
     background-color: #4aaaa5;
-    border-style: solid;
+
 }
 
-.nav-links {
+.nav-links-homepage {
 
-    padding-top: 30px;
+    padding-top: 34px;
     margin: 0 auto;
     float: right;
-    word-spacing: 35px;    
+    word-spacing: 40px;    
+
 }
 a {
     
     text-decoration: none;
     color: #9b9797
 }
-.main-background {
+.main-background-homepage {
 
     margin: 0 auto;
     padding-top: 5px;
-    height:685px;
-    background-color: #cccccc;
+    height:100%;
+    background-image: url("C:/Users/Justin/Desktop/BootCamp/Self-portfolio/assets/images/prism/prism.png");
 }
 
-.about-me {
+.about-me-homepage {
 
     margin-top: 40px;
-    margin-left: 170px;
+    margin-left: 305px;
     border-top: 40px;
     background-color: white;
-    height:480px;
+    height:590px;
     width: 960px;
-    border-color: #dddddd;
+    border: 1px solid #dddddd;
+
 }
 
 h2 {
@@ -64,11 +75,10 @@ h2 {
     padding-top: 25px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding-bottom: 15px;
-    display: inline-block;
+
 }
 
-.under-line {
+.under-line-homepage {
 
     margin: 0 auto;
     border-bottom: 2px solid #c7c5c5;
@@ -77,22 +87,195 @@ h2 {
 }
 
 img {
+    
+    padding-top: 40px; 
+    margin-left: 25px; 
+    padding-right: 15px;
 
     float: left;
-    padding-top: 40px;
-    padding-left: 25px;
+
 }
 
-p {
+.about-me-paragraph {
 
-    padding-left: 220px;
-    padding-top: 20px;
+    margin: 0 auto;
+    padding-left: 25px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    line-height: 1.5;
+    line-height: 2;
+    color: #777777;
+    margin-top: 33px;
 
+}
+
+.footerborder-homepage {
+
+    background-color: #4aaaa5;
+    height: 10px;
+}
+.footer-homepage {
+
+    background-color: #666666;
+    height:75px;
+
+}
+
+.copyright-homepage {
+
+    margin: 0 auto;
+    font-size: 10px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 50%;
+    padding-top: 55px;
+}
+
+
+
+/* --------contact CSS starts here============ */
+
+
+nav {  
+
+    height: 55px;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.name-title {   
+
+    margin: 0 auto;
+    text-align: center;
+    border-bottom-color: #cccccc;
+    border-bottom-style: 1px ridge;
+    display:inline-block;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    width: 190px;
+    height: 55px;
+    background-color: #4aaaa5;
+
+}
+
+.nav-links {
+
+    padding-top: 30px;
+    margin: 0 auto;
+    float: right;
+    word-spacing: 35px;    
+
+}
+
+a {
+    
+    text-decoration: none;
+    color: #9b9797
+}
+
+.main-background {
+
+    margin: 0 auto;
+    padding-top: 5px;
+    height:100%;
+    background-image: url("C:/Users/Justin/Desktop/BootCamp/Self-portfolio/assets/images/prism/prism.png");
+}
+
+
+.contact-me {
+
+    margin-top: 40px;
+    margin-left: 312px;
+    border-top: 40px;
+    background-color: white;
+    height:540px;
+    width: 960px;
+    border-color: #dddddd;
+}
+
+.contact-form {
+
+    width: 900px;
+    height:480px;
+
+}
+
+
+label {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.name-label {
+
+    padding-top:50px;
+    padding-left:20px;
+    
+
+}
+
+#name {
+
+    margin-top:5px;
+    margin-left:20px;
+    width:900px;
+    height:30px;
+    border: 1px solid #dddddd;
+    padding-left:5px;
+
+
+}
+
+.email-label {
+
+    
+    padding-top:20px;
+    padding-left:20px;
+
+}
+
+#email {
+    
+    margin-top:5px;
+    margin-left:20px;
+    width:900px;
+    height:30px;
+    border: 1px solid #dddddd;
+    padding-left:5px;
+
+
+}
+
+.message-label {
+    
+    padding-top:20px;
+    padding-left:20px;
+
+}
+
+#message {
+
+    margin-top:100px;
+    margin-left:20px;
+    width:900px;
+    height:110px;
+    border: 1px solid #dddddd;
+    margin-top:5px;
+    padding-left:5px;
+
+}
+
+.button {
+
+    width:80px;
+    height:30px;
+    background-color: #4aaaa5;
+    margin-top: 25px;
+    margin-left:20px;
 }
 
 .footerborder {
+
     background-color: #4aaaa5;
     height: 10px;
 }
@@ -108,19 +291,73 @@ p {
     font-size: 10px;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding-left: 605px;
+    padding-left: 50%;
     padding-top: 55px;
 }
 
-.contact-me {
+/* --------------Portfolio Page Starts Here-------------- */
 
-    margin-top: 40px;
-    margin-left: 170px;
-    border-top: 40px;
-    background-color: white;
-    height:480px;
-    width: 960px;
-    border-color: #dddddd;
+
+.main-background {
+
+    margin: 0 auto;
+    padding-top: 5px;
+    height:100%;
+    background-image: url("C:/Users/Justin/Desktop/BootCamp/Self-portfolio/assets/images/prism/prism.png");
+
 }
 
+.portfolio-background {
+
+    
+    margin-top: 10px;
+    margin-left: 315px;
+    border-top: 40px;
+    background-color: white;
+    height:600px;
+    width: 960px;
+    border: 1px solid #dddddd;
+
+}
+
+.under-line {
+
+    margin: 0 auto;
+    border-bottom: 2px solid #c7c5c5;
+    width: 815px;
+
+}
+
+.puppy-picture {
+
+    position:relative;
+
+
+}
+
+.footerborder {
+    
+    background-color: #4aaaa5;
+    height: 5px;
+    margin-top:25px;
+
+}
+
+.footer {
+    
+
+    background-color: #666666;
+    height:55px;
+
+}
+
+.copyright {
+
+    
+    margin: 0 auto;
+    font-size: 10px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 50%;
+}
 
