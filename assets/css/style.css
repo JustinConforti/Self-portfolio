@@ -269,31 +269,33 @@ img {
 
 .fa {
 
-    font-size: 30px;
-    width: 50px;
+    margin:0 auto;
+    padding-right:25px;
+    font-size: 45px;
+    width: 10px;
     text-align: center;
     text-decoration: none;
+    border-radius: 50%;
+    padding-left:25px;
+    padding-top:5px;
 
-}
+  }
 
   
   .fa-facebook {
       
     text-decoration: none;
-    height:100px;
-    color: white;
-
 
   }
   
   .social-buttons {
 
-    border: 2px solid red;
-    width:400px;
-    height:40px;
-    margin:0 auto;
-    margin-top:15px;
-
+    border: 1px solid red;
+    padding-top:5px;
+    width:340px;
+    height:60px;
+    margin-top:10px;
+    margin-left:625px;
 
 }
   
@@ -301,9 +303,10 @@ img {
 .copyright-homepage {
 
     margin: 0 auto;
-    text-align:center;
-    font-size: 10px;
-    color: white;
+    padding-top:5px;
+    padding-left:740px;
+    font-size: 20px;
+    color: #af4f3a;
     font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
